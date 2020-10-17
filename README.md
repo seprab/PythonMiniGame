@@ -26,31 +26,30 @@ El juego:
   
 
 ## La estrtuctura del juego en código es:
-
-  *Clase Entidad:
-      *Propiedad Vida
-      *{Propiedad} Defensa fisica
-      *(Propiedad) Defensa magica
-      *[Propiedad] Poder fisica
-      *[Propiedad] Poder magica      
-      *[Metodo] Dañar (int cantidad) -> ModificarVida (cantidad) + Eventos adicionales
-      *[Metodo] Curar (int cantidad) -> ModificarVida (cantidad) + Eventos adicionales
-      *[Metodo] ModificarVida (int cantidad) -> Suma la cantidad de vida recibida a la propiedad Vida
-      *[Metodo] Atacar (Entidad, int magia, int fisico) -> Metodo recibirAtaque de la otra entidad
-      *[Metodo] RecibirAtaque (int magia, int fisico) -> Calcular daño para llamar el metodo Dañar(), el daño debería calcularse en base a la defensa  
-      *[Clase Heredada] Clase Heroe:
-          *[Propiedad] Precisión
-          *[Propiedad] Numero flechas         
-          *[Metodo] UsarAtaque (ref Ataque) -> con espada, con vara o (flechas -> reducir flechas [si es igual a 0 returnar false]). -> Atacar
-          *[Metodo] ModificarNoFlechas (int cantidad) -> Sumar si encuentra o reducir si las usa
-          *[Metodo] UsarPuntoHabilidad() -> Metodo que permite subir la propiedad magica, fisica y precisión     
-      *[Clase Heredada] Clase Mounstro
-          *[Metodo morir] EventoMorir -> Asignado aleatoriamente
-          *[Metodo] regalar_flechas -> Heroe.MofificarNoFlechas(Rand(1-10))
-          *[Metodo] regalar_puntosHabilidad -> Heroe.UsarPuntoHabilidad(Rand(1-3))       
-    *Clase Enfrentamiento:
+  * Clase Entidad:
+      * [Propiedad] Vida
+      * [Propiedad] Defensa fisica
+      * [Propiedad] Defensa magica
+      * [Propiedad] Poder fisica
+      * [Propiedad] Poder magica      
+      * [Metodo] Dañar (int cantidad) -> ModificarVida (cantidad) + Eventos adicionales
+      * [Metodo] Curar (int cantidad) -> ModificarVida (cantidad) + Eventos adicionales
+      * [Metodo] ModificarVida (int cantidad) -> Suma la cantidad de vida recibida a la propiedad Vida
+      * [Metodo] Atacar (Entidad, int magia, int fisico) -> Metodo recibirAtaque de la otra entidad
+      * [Metodo] RecibirAtaque (int magia, int fisico) -> Calcular daño para llamar el metodo Dañar(), el daño debería calcularse en base a la defensa  
+      * [Clase Heredada] Clase Heroe:
+          * [Propiedad] Precisión
+          * [Propiedad] Numero flechas         
+          * [Metodo] UsarAtaque (ref Ataque) -> con espada, con vara o (flechas -> reducir flechas [si es igual a 0 returnar false]). -> Atacar
+          * [Metodo] ModificarNoFlechas (int cantidad) -> Sumar si encuentra o reducir si las usa
+          * [Metodo] UsarPuntoHabilidad() -> Metodo que permite subir la propiedad magica, fisica y precisión     
+      * [Clase Heredada] Clase Mounstro
+          * [Metodo morir] EventoMorir -> Asignado aleatoriamente
+          * [Metodo] regalar_flechas -> Heroe.MofificarNoFlechas(Rand(1-10))
+          * [Metodo] regalar_puntosHabilidad -> Heroe.UsarPuntoHabilidad(Rand(1-3))       
+    * Clase Enfrentamiento:
       Debe encargarse de enfrentar el usuario y un mounstro hasta que alguno muera  
-    *Clase ControladorJuego:
+    * Clase ControladorJuego:
       Debe encargarse de llevar el control de los pisos, enfrentamientos, inicio y final del juego
 
 
