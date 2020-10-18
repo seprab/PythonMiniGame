@@ -47,9 +47,9 @@ El juego:
           * [Metodo morir] EventoMorir -> Asignado aleatoriamente
           * [Metodo] regalar_flechas -> Heroe.MofificarNoFlechas(Rand(1-10))
           * [Metodo] regalar_puntosHabilidad -> Heroe.UsarPuntoHabilidad(Rand(1-3))       
-    * Clase Enfrentamiento:
+  * Clase Enfrentamiento:
       Debe encargarse de enfrentar el usuario y un mounstro hasta que alguno muera  
-    * Clase ControladorJuego:
+  * Clase ControladorJuego:
       Debe encargarse de llevar el control de los pisos, enfrentamientos, inicio y final del juego
 
 
