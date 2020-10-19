@@ -10,3 +10,7 @@ class Ataque:
         self.ataque_magica = _ataque_magica
         self.requiere_flechas = _requiere_flechas
         pass
+
+    def __str__(self):
+        intro = f"{self.nombre}\t poder físico:{self.ataque_fisica}\t poder mágico:{self.ataque_magica}"
+        return intro

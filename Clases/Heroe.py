@@ -1,7 +1,7 @@
 from typing import List
 from Clases.Entidades import Entidad
 from Clases.Ataque import Ataque
-from Clases.Mounstro import Mounstro
+from Clases.TextStyle import *
 
 
 class Heroe(Entidad):
@@ -16,35 +16,46 @@ class Heroe(Entidad):
         self.ataque_fisica = 10
         self.ataque_magica = 10
         self.precision = 1.2
+        self.puntos_habilidad = 0
+        self.numero_flechas = 3
         pass
 
-    def atacar(self, objetivo: Mounstro, ataque: Ataque):
+    def __str__(self):
+        info = Entidad.__str__(self)
+        info += f"Overall Precisión: {self.precision}\n"
+        info += f"Flechas restantes: {self.numero_flechas}\n"
+        info += f"Puntos habilidad restantes: {self.puntos_habilidad}\n"
+        return info
+
+    def atacar(self, objetivo, ataque: Ataque):
         if ataque.requiere_flechas and self.numero_flechas <= 0:
-            print("No tienes suficientes flechas para usar este ataque")
+            print(f"{bcolors.WARNING}No tienes suficientes flechas para usar este ataque{bcolors.ENDC}")
             return False
         elif ataque.requiere_flechas:
             self.numero_flechas -= 1
-        Entidad.atacar(self, Mounstro, ataque)
+        Entidad.atacar(self, objetivo, ataque)
         poder_magico_total = ataque.ataque_magica * self.ataque_magica
         poder_fisico_total = ataque.ataque_fisica * self.ataque_fisica * self.precision
         objetivo.recibir_ataque(poder_magico_total, poder_fisico_total)
         return True
 
     def usar_puntos_habilidad(self):
-        print(f"{self.nombre} tienes {self.puntos_habilidad} disponibles, ¿deseas usarlos?\n Ingrese 'Si' o 'No':")
+        print(f"{bcolors.BOLD}{self.nombre}{bcolors.ENDC} tienes {bcolors.OKCYAN}{self.puntos_habilidad}{bcolors.ENDC} disponibles, ¿deseas usarlos?\n Ingrese {bcolors.OKGREEN}'Si'{bcolors.ENDC} o {bcolors.WARNING}'No'{bcolors.ENDC}:")
         seleccion_usuario = input().lower()
         if seleccion_usuario == "no":
+            print("\n")
             return
         elif seleccion_usuario != "si":
-            print("Haz ingresado un valor de entrada no valido, presta atención a las instrucciones:")
+            print(f"Haz ingresado un valor de entrada no valido, {bcolors.WARNING}presta atención a las instrucciones:{bcolors.ENDC}")
             self.usar_puntos_habilidad()
 
         print(
-            "Selecciona:\n'1' para aumentar la estadistica de fuerza fisica\n'2' para aumentar la estadistica "
-            "mágica\n'3' para aumentar la estadistica de precisión\n")
+            f"Selecciona:\n{bcolors.OKCYAN}'1'{bcolors.ENDC} para aumentar la estadistica de fuerza fisica\n{bcolors.OKCYAN}'2'{bcolors.ENDC} para aumentar la estadistica "
+            f"mágica\n{bcolors.OKCYAN}'3'{bcolors.ENDC} para aumentar la estadistica de precisión\n")
         while self.puntos_habilidad > 0:
             try:
-                print("Realiza tu selección: ")
+                print(f"Puntos restantes: {self.puntos_habilidad}. \t Realiza tu selección para usar un punto de "
+                      f"habilidad: ")
                 seleccion_usuario = int(input())
                 if seleccion_usuario < 1 or seleccion_usuario > 3:
                     continue
@@ -52,11 +63,14 @@ class Heroe(Entidad):
                     if seleccion_usuario == 1:
                         self.defensa_fisica += 0.1
                         self.ataque_fisica += 1
+                        print("Acabas de asignar un punto al atributo físico.")
                     elif seleccion_usuario == 2:
                         self.defensa_magica += 0.1
                         self.ataque_magica += 1
+                        print("Acabas de asignar un punto al atributo mágico.")
                     else:
-                        self.precision += 0.5
+                        self.precision += 1
+                        print("Acabas de asignar un punto al atributo precisión.")
                     self.puntos_habilidad -= 1
             except ValueError:
                 print("Haz ingresado un valor no valido.\n")
@@ -64,10 +78,15 @@ class Heroe(Entidad):
         pass
 
     def recibir_puntos_habilidad(self, cantidad: int):
-        print(f"Has recibido {cantidad} puntos de habilidad.\n")
+        print(f"Has recibido {bcolors.OKGREEN}{cantidad}{bcolors.ENDC} puntos de habilidad.\n")
+        self.puntos_habilidad += cantidad
         self.usar_puntos_habilidad()
         pass
 
+    def asignar_flechas(self, cantidad: int):
+        print(f"Acabas de recibir {bcolors.OKGREEN}{cantidad}{bcolors.ENDC}  flechas.\n")
+        self.numero_flechas += cantidad
+
     def al_morir(self):
-        print("¡Has muerto!")
+        print(f"\n\n\t\t{bcolors.FAIL}¡{self.nombre} has muerto!{bcolors.ENDC}")
         pass
