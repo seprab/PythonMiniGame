@@ -1,0 +1,344 @@
+﻿Absorb,10,10,1
+Acid,3,7,0
+Acrobatics,1,4,0
+Aerial Ace,1,3,0
+Aeroblast,4,6,0
+Air Cutter,6,2,0
+Air Slash,4,2,0
+Ancientpower,6,10,0
+Aqua Jet,7,8,0
+Aqua Tail,4,2,0
+Arm Thrust,6,2,0
+Assurance,6,7,0
+Astonish,4,5,0
+Attack Order,6,10,0
+Aura Sphere,9,10,1
+Aurora Beam,3,3,0
+Avalanche,2,8,0
+Barrage,9,1,0
+Beat Up,3,6,1
+Bind,8,8,0
+Bite,9,6,0
+Blast Burn,3,10,0
+Blaze Kick,8,7,1
+Blizzard,9,1,0
+Blue Flare,4,6,0
+Body Slam,3,5,0
+Bolt Strike,9,7,0
+Bone Club,8,1,0
+Bone Rush,4,6,0
+Bonemerang,8,4,0
+Bounce,9,4,0
+Brave Bird,8,7,1
+Brick Break,2,1,0
+Brine,8,2,0
+Bubble,1,4,0
+Bubblebeam,3,2,0
+Bug Bite,4,5,0
+Bug Buzz,9,6,0
+Bulldoze,1,2,0
+Bullet Punch,3,7,0
+Bullet Seed,9,6,0
+Charge Beam,1,3,0
+Chatter,10,3,0
+Chip Away,1,1,0
+Circle Throw,1,10,0
+Clamp,2,4,1
+Close Combat,8,3,0
+Comet Punch,1,3,0
+Confusion,4,5,0
+Constrict,5,2,0
+Crabhammer,5,10,0
+Cross Chop,8,8,0
+Cross Poison,2,8,0
+Crunch,2,3,0
+Crush Claw,10,10,0
+Cut,1,9,0
+Dark Pulse,6,1,1
+Dark Void,1,7,0
+Dig,1,6,0
+Discharge,7,8,0
+Dive,5,6,0
+Dizzy Punch,1,7,1
+Doom Desire,10,3,0
+Double Hit,8,8,0
+Double Kick,1,8,0
+Double-edge,7,2,0
+Doubleslap,10,4,0
+Draco Meteor,9,2,0
+Dragon Claw,3,8,0
+Dragon Pulse,4,7,0
+Dragon Rage,10,5,0
+Dragon Rush,2,2,0
+Dragon Tail,1,3,0
+Dragonbreath,10,4,0
+Drain Punch,10,3,0
+Drill Peck,5,9,0
+Drill Run,4,5,0
+Dual Chop,8,4,0
+Dynamicpunch,2,6,0
+Earth Power,3,7,0
+Earthquake,2,10,0
+Echoed Voice,9,4,0
+Egg Bomb,7,1,1
+Electro Ball,4,8,0
+Ember,7,4,0
+Energy Ball,8,1,0
+Eruption,1,1,0
+Explosion,10,7,1
+Extrasensory,1,1,0
+Extremespeed,8,7,0
+Facade,10,2,0
+Faint Attack,3,9,1
+Fake Out,9,5,1
+Fiery Dance,6,3,0
+Final Gambit,9,10,0
+Fire Blast,7,3,0
+Fire Fang,1,9,0
+Fire Punch,8,5,0
+Fire Spin,4,3,0
+Fissure,10,4,0
+Flame Burst,4,5,0
+Flame Charge,7,8,0
+Flame Wheel,2,4,1
+Flamethrower,7,2,0
+Flare Blitz,1,5,1
+Flash Cannon,3,5,0
+Flatter,9,3,0
+Fly,9,9,0
+Focus Blast,3,6,0
+Focus Punch,7,3,1
+Force Palm,3,5,0
+Foul Play,10,8,0
+Freeze Shock,10,1,0
+Frenzy Plant,5,5,1
+Frost Breath,2,3,1
+Fury Attack,2,8,1
+Fury Cutter,6,2,1
+Fury Swipes,7,3,0
+Fusion Bolt,8,9,1
+Fusion Flare,1,8,0
+Gear Grind,5,7,0
+Giga Drain,3,2,0
+Giga Impact,4,8,0
+Glaciate,2,5,0
+Glare,4,3,0
+Grasswhistle,5,3,0
+Guillotine,4,7,1
+Gunk Shot,3,4,0
+Gust,9,1,0
+Hammer Arm,8,4,1
+Head Charge,9,9,1
+Head Smash,6,8,0
+Headbutt,8,7,0
+Heart Stamp,9,8,0
+Heat Crash,4,10,0
+Heat Wave,9,6,0
+Heavy Slam,10,9,0
+Hex,9,4,0
+Hi Jump Kick,10,5,0
+Hidden Power,9,6,0
+Horn Attack,1,6,0
+Horn Drill,6,10,1
+Horn Leech,7,5,0
+Hurricane,10,9,0
+Hydro Cannon,3,8,0
+Hydro Pump,3,6,0
+Hyper Beam,3,8,0
+Hyper Fang,3,9,1
+Hyper Voice,5,4,0
+Hypnosis,5,10,0
+Ice Ball,8,8,0
+Ice Beam,6,4,0
+Ice Burn,6,6,0
+Ice Fang,9,2,0
+Ice Punch,9,1,0
+Ice Shard,2,9,1
+Icicle Crash,8,4,0
+Icicle Spear,5,3,1
+Icy Wind,8,8,1
+Incinerate,6,10,1
+Inferno,10,6,0
+Iron Head,9,6,0
+Iron Tail,8,6,0
+Judgment,9,5,0
+Jump Kick,1,5,0
+Karate Chop,3,3,0
+Knock Off,2,1,0
+Last Resort,5,2,0
+Lava Plume,4,10,0
+Leaf Blade,6,4,0
+Leaf Storm,6,8,0
+Leaf Tornado,1,8,0
+Lick,2,7,0
+Lovely Kiss,9,7,0
+Low Kick,9,6,0
+Luster Purge,6,2,0
+Mach Punch,2,10,0
+Magical Leaf,3,9,0
+Magma Storm,7,8,0
+Magnet Bomb,6,7,0
+Magnitude,6,3,1
+Mega Drain,2,7,1
+Mega Kick,6,4,0
+Mega Punch,1,2,0
+Megahorn,9,7,0
+Metal Burst,3,8,0
+Metal Claw,9,3,0
+Meteor Mash,8,8,0
+Mirror Shot,7,10,0
+Mist Ball,7,1,0
+Mud Bomb,5,7,0
+Mud Shot,6,7,1
+Mud-slap,7,8,1
+Muddy Water,10,5,1
+Needle Arm,3,5,0
+Night Daze,8,3,1
+Night Shade,8,6,0
+Night Slash,1,2,0
+Octazooka,4,1,0
+Ominous Wind,1,4,1
+Outrage,9,9,0
+Overheat,5,5,0
+Pay Day,1,9,1
+Payback,6,3,0
+Peck,9,10,0
+Petal Dance,9,9,0
+Pin Missile,2,3,0
+Pluck,7,8,0
+Poison Fang,2,10,0
+Poison Gas,6,4,1
+Poison Jab,8,6,0
+Poison Sting,7,1,0
+Poison Tail,10,8,0
+Poisonpowder,8,7,0
+Pound,2,10,0
+Powder Snow,5,10,0
+Power Gem,6,5,0
+Power Whip,3,7,0
+Psybeam,5,2,0
+Psychic,8,5,0
+Psycho Boost,10,3,0
+Psycho Cut,5,2,0
+Psyshock,9,5,0
+Psystrike,1,4,0
+Psywave,7,4,0
+Pursuit,6,5,1
+Quick Attack,9,10,1
+Rage,7,7,0
+Rapid Spin,10,9,0
+Razor Leaf,2,10,0
+Razor Shell,5,5,0
+Razor Wind,5,4,1
+Relic Song,8,6,0
+Retaliate,7,3,0
+Revenge,2,2,0
+Roar Of Time,10,3,0
+Rock Blast,9,7,1
+Rock Climb,1,9,1
+Rock Slide,7,10,1
+Rock Smash,2,9,0
+Rock Throw,4,4,1
+Rock Tomb,3,6,0
+Rock Wrecker,4,3,0
+Rolling Kick,3,7,0
+Rollout,3,5,0
+Round,5,10,0
+Sacred Fire,3,1,0
+Sacred Sword,10,9,0
+Sand Tomb,5,3,1
+Scald,8,10,0
+Scratch,9,3,1
+Searing Shot,4,5,0
+Secret Power,3,2,0
+Secret Sword,1,5,0
+Seed Bomb,6,2,0
+Seed Flare,1,5,0
+Seismic Toss,8,10,1
+Shadow Ball,6,1,0
+Shadow Claw,2,2,1
+Shadow Force,7,2,0
+Shadow Punch,9,5,0
+Shadow Sneak,2,4,0
+Sheer Cold,10,1,0
+Shock Wave,8,1,0
+Signal Beam,9,4,1
+Silver Wind,7,9,0
+Sketch,4,6,0
+Skull Bash,9,4,0
+Sky Attack,6,5,0
+Sky Drop,6,8,0
+Sky Uppercut,6,5,0
+Slam,9,5,1
+Slash,4,7,1
+Sleep Powder,6,3,0
+Sludge,7,4,0
+Sludge Bomb,5,10,0
+Sludge Wave,9,6,0
+Smack Down,4,3,0
+Smog,9,2,0
+Snarl,10,3,0
+Snore,5,4,0
+Solarbeam,6,9,0
+Sonicboom,3,2,0
+Spacial Rend,3,7,0
+Spark,1,8,0
+Spike Cannon,5,4,0
+Splash,5,5,0
+Spore,8,5,1
+Steamroller,4,1,0
+Steel Wing,8,10,0
+Stomp,7,9,0
+Stone Edge,4,2,1
+Stored Away,6,5,0
+Storm Throw,10,2,0
+Strength,3,6,0
+Stun Spore,6,1,1
+Submission,4,1,1
+Sucker Punch,10,9,1
+Super Fang,10,9,0
+Superpower,5,3,0
+Supersonic,2,1,0
+Surf,9,9,1
+Sweet Kiss,7,10,0
+Swift,1,4,0
+Synchronoise,1,2,0
+Tackle,4,3,0
+Tail Slap,1,6,0
+Take Down,9,10,0
+Techno Blast,10,3,0
+Thief,5,10,1
+Thrash,5,9,1
+Thunder,7,8,0
+Thunder Fang,4,2,1
+Thunder Wave,5,10,0
+Thunderbolt,7,3,1
+Thunderpunch,10,3,1
+Thundershock,8,7,1
+Toxic,10,4,0
+Tri Attack,1,7,0
+Triple Kick,1,9,0
+Twineedle,4,9,0
+Twister,4,3,0
+Uproar,1,7,1
+Vacuum Wave,10,4,0
+Venoshock,8,2,0
+Vicegrip,3,6,0
+Vine Whip,6,4,1
+Vital Throw,3,5,1
+Volt Tackle,2,5,0
+Wake-up Slap,10,7,0
+Water Gun,5,10,0
+Water Pulse,3,1,0
+Water Spout,7,4,0
+Waterfall,8,3,0
+Weather Ball,5,3,0
+Whirlpool,5,10,0
+Wild Charge,9,1,1
+Wing Attack,1,5,0
+Wood Hammer,5,10,1
+Wrap,2,6,0
+X-scissor,7,3,0
+Yawn,2,3,0
+Zap Cannon,9,1,0
+Zen Headbutt,9,5,0

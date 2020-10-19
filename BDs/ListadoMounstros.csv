@@ -1,0 +1,320 @@
+﻿nombre,defensa fisica,defensa magica,ataque fisico,ataque magico
+Aasimar,2,7,8,2
+Aboleth,7,7,8,5
+Angel,1,10,8,10
+"  Angel, Astral Deva",6,4,10,6
+"  Angel, Planetar",4,1,1,10
+"  Angel, Solar",2,7,9,5
+Animated Object,6,1,2,3
+Ankheg,3,7,2,7
+"Ant, Giant",6,2,10,9
+Army Ant Swarm,3,2,6,6
+Ape,7,10,9,7
+"  Ape, Dire",7,6,4,10
+"  Ape, Gorilla",5,6,8,8
+Archon,9,2,1,5
+"  Archon, Hound",9,8,2,1
+"  Archon, Lantern",8,10,10,4
+"  Archon, Trumpet",1,1,6,8
+Assassin Vine,4,5,6,1
+Azata,6,4,4,7
+"  Azata, Bralani",3,10,9,1
+"  Azata, Ghaele",5,8,7,5
+"  Azata, Lillend",7,7,6,6
+Barghest,1,7,5,6
+Basidirond,7,4,4,8
+Basilisk,3,2,8,6
+Bat,5,8,10,3
+  Bat Swarm,7,2,3,6
+"  Bat, Dire",8,10,5,9
+Bear,2,10,1,6
+"  Bear, Dire",4,6,9,5
+"  Bear, Grizzly",10,6,8,4
+Bebilith,6,7,7,1
+Beetle,3,7,3,4
+"  Beetle, Fire",3,1,8,9
+"  Beetle, Giant Stag",1,9,8,4
+Behir,9,9,2,4
+Black Pudding,9,9,10,7
+Boar,2,10,6,1
+"  Boar, Dire",9,10,1,4
+Boggard,8,3,8,4
+Bugbear,10,3,9,2
+Bulette,9,8,10,5
+Cat,9,10,10,5
+"  Cat, Cheetah",7,2,7,2
+"  Cat, Leopard",9,5,2,5
+Cave Fisher,5,2,8,2
+Centaur,7,5,1,6
+Centipede,1,2,7,7
+  Centipede Swarm,7,10,8,5
+"  Centipede, Giant",9,6,1,2
+Chimera,4,2,2,4
+Choker,4,8,4,4
+Chuul,8,10,9,9
+Cloaker,4,2,1,4
+Cockatrice,3,9,3,5
+Couatl,9,10,1,1
+Crab,6,4,9,2
+  Crab Swarm,5,6,7,8
+"  Crab, Giant",2,8,5,4
+Crocodile,4,8,7,8
+"  Crocodile, Dire",7,7,5,9
+Cyclops,4,2,9,6
+Dark Creeper,5,4,10,7
+Dark Stalker,7,7,8,5
+Darkmantle,3,1,1,2
+Demon,1,10,8,6
+"  Demon, Babau",10,9,3,5
+"  Demon, Balor",10,6,10,8
+"  Demon, Dretch",1,2,4,6
+"  Demon, Glabrezu",2,9,1,10
+"  Demon, Hezrou",3,2,8,8
+"  Demon, Marilith",6,9,9,1
+"  Demon, Nabasu",2,8,7,8
+"  Demon, Nalfeshnee",7,1,10,7
+"  Demon, Quasit",6,4,5,6
+"  Demon, Shadow",6,3,5,3
+"  Demon, Succubus",10,7,4,9
+"  Demon, Vrock",9,3,2,2
+Derro,3,9,4,4
+Devil,10,7,1,7
+"  Devil, Barbed",7,7,7,1
+"  Devil, Bearded",9,10,4,9
+"  Devil, Bone",9,6,10,3
+"  Devil, Erinyes",9,6,7,10
+"  Devil, Horned",6,1,3,2
+"  Devil, Ice",7,7,8,4
+"  Devil, Imp",6,1,6,7
+"  Devil, Lemure",8,1,7,4
+"  Devil, Pit Fiend",10,2,9,9
+Devourer,4,7,1,1
+Dinosaur,10,4,5,2
+"  Dinosaur, Ankylosaurus",6,7,4,8
+"  Dinosaur, Brachiosaurus",8,4,2,3
+"  Dinosaur, Deinonychus",4,6,9,10
+"  Dinosaur, Elasmosaurus",2,10,10,4
+"  Dinosaur, Pteranodon",10,4,9,8
+"  Dinosaur, Stegosaurus",6,10,8,8
+"  Dinosaur, Triceratops",8,1,8,2
+"  Dinosaur, Tyrannosaurus",3,4,10,4
+Dog,3,6,9,8
+"  Dog, Riding",1,9,9,6
+Dolphin,10,5,6,4
+"  Dolphin, Orca",10,3,2,7
+Doppelganger,3,2,6,1
+Dragon,2,3,10,7
+"  Chromatic Dragon, Black",1,1,7,5
+"  Chromatic Dragon, Blue",4,2,5,1
+"  Chromatic Dragon, Green",2,7,10,6
+"  Chromatic Dragon, Red",2,2,6,9
+"  Chromatic Dragon, White",1,5,8,7
+"  Metallic Dragon, Brass",9,10,6,9
+"  Metallic Dragon, Bronze",7,7,9,1
+"  Metallic Dragon, Copper",4,3,8,9
+"  Metallic Dragon, Gold",10,1,2,4
+"  Metallic Dragon, Silver",4,6,6,2
+Dragon Turtle,4,9,5,5
+Drider,5,10,3,1
+Drow,3,8,9,4
+Dryad,2,7,10,10
+Duergar,3,3,3,9
+Eagle,2,7,8,6
+"  Eagle, Giant",7,9,7,10
+Eel,9,6,6,3
+"  Eel, Electric",7,9,7,5
+"  Eel, Giant Moray",6,6,7,3
+Elemental,3,4,7,9
+"  Elemental, Air",1,6,2,10
+"  Elemental, Earth",6,2,5,2
+"  Elemental, Fire",7,4,8,10
+"  Elemental, Water",10,7,2,2
+  Elephant,4,2,1,7
+"  Elephant, Mastodon",2,7,10,1
+Ettercap,6,9,7,7
+Ettin,9,4,5,7
+Familiar,3,4,2,1
+"Flytrap, Giant",6,1,6,3
+Frog,2,8,9,4
+"  Frog, Giant",4,6,4,3
+"  Frog, Poison",4,10,10,6
+Froghemoth,1,6,3,10
+Gargoyle,3,1,6,3
+Gelatinous Cube,1,3,7,6
+Genie,8,2,2,6
+"  Genie, Djinni",1,8,4,9
+"  Genie, Efreeti",4,6,7,2
+"  Genie, Janni",6,10,1,10
+"  Genie, Marid",8,10,3,2
+"  Genie, Shaitan",10,4,2,10
+Ghost,7,8,2,9
+Ghoul,3,5,2,3
+Giant,10,4,2,10
+"  Giant, Cloud",2,6,5,5
+"  Giant, Fire",7,3,3,2
+"  Giant, Frost",8,10,2,1
+"  Giant, Hill",1,1,2,9
+"  Giant, Stone",8,2,10,2
+"  Giant, Storm",5,10,5,5
+Gibbering Mouther,7,8,8,10
+Girallon,5,3,8,9
+Gnoll,8,2,9,2
+Goblin,2,1,6,3
+Goblin Dog,3,10,2,4
+Golem,3,2,3,2
+"  Golem, Clay",9,10,9,1
+"  Golem, Flesh",9,5,7,4
+"  Golem, Ice",10,5,1,5
+"  Golem, Iron",5,5,7,1
+"  Golem, Stone",2,2,6,1
+"  Golem, Wood",6,1,9,4
+Gorgon,4,8,10,6
+Gray Ooze,9,3,4,7
+Green Hag,6,7,7,9
+Griffon,6,7,9,6
+Half-Celestial,6,3,9,1
+Half-Dragon,10,5,5,7
+Half-Fiend,6,7,2,3
+Harpy,2,5,9,5
+Hell Hound,2,3,1,5
+"  Hell Hound, Nessian",9,6,7,4
+Herd Animal,1,5,4,1
+"  Herd Animal, Aurochs",4,1,8,7
+"  Herd Animal, Bison",6,1,5,3
+Hobgoblin,2,2,5,9
+Homunculus,5,2,1,3
+Horse,1,6,2,2
+"  Horse, Pony",5,8,10,7
+Hydra,6,4,5,4
+Hyena,1,10,6,8
+"  Hyena, Dire",3,1,7,8
+Intellect Devourer,10,9,5,2
+Invisible Stalker,2,4,8,6
+Iron Cobra,3,4,10,6
+Kobold,7,10,4,9
+Kraken,9,6,3,6
+Kyton,4,10,7,9
+Lamia,6,1,8,2
+Leech,5,2,10,5
+  Leech Swarm,4,8,8,4
+"  Leech, Giant",3,1,5,4
+Lich,9,9,3,9
+Linnorm,3,6,4,4
+"  Linnorm, Crag",6,6,3,5
+"  Linnorm, Ice",9,3,3,9
+"  Linnorm, Tarn",3,8,7,1
+Lion,8,3,2,10
+"  Lion, Dire",10,4,4,6
+Lizard,1,5,6,4
+"  Lizard, Giant Frilled",1,8,1,6
+"  Lizard, Monitor",4,9,2,4
+Lizardfolk,2,10,7,6
+Lycanthrope,5,5,2,10
+"  Lycanthrope, Wererat",8,10,2,7
+"  Lycanthrope, Werewolf",4,2,10,7
+Manticore,7,3,3,9
+"Mantis, Giant",10,4,3,4
+Medusa,2,7,2,4
+Mephit,10,4,9,10
+Merfolk,1,7,10,10
+Mimic,4,1,7,10
+Minotaur,8,4,1,1
+Mite,7,6,1,10
+Mohrg,10,1,1,2
+Morlock,3,1,2,4
+Mummy,6,3,6,8
+Naga,10,3,10,6
+"  Naga, Dark",3,4,4,3
+"  Naga, Guardian",1,2,10,3
+"  Naga, Spirit",10,3,2,9
+Neothelid,6,10,8,6
+Night Hag,10,4,5,4
+Nightmare,7,6,5,2
+"  Nightmare, Cauchemar",5,3,9,7
+Nymph,8,3,9,3
+Ochre Jelly,3,3,8,1
+Octopus,10,9,6,5
+"  Octopus, Giant",4,5,8,7
+Ogre,10,8,5,5
+"Oni, Ogre Mage",8,8,2,9
+Orc,6,5,9,5
+Otyugh,5,10,4,8
+Owlbear,6,7,5,5
+Pegasus,6,1,5,6
+Phase Spider,9,10,5,6
+Phoenix,8,8,4,7
+Pixie,10,1,1,3
+Pseudodragon,9,9,4,1
+Purple Worm,2,3,2,1
+Rakshasa,8,3,5,1
+Rat,9,5,1,3
+  Rat Swarm,5,8,1,9
+"  Rat, Dire",2,5,4,9
+Remorhaz,5,5,10,6
+Retriever,7,8,2,9
+Rhinoceros,3,1,2,3
+"  Rhinoceros, Woolly",10,7,2,3
+Roc,1,8,4,1
+Roper,8,10,3,4
+Rust Monster,9,5,6,6
+Sahuagin,2,1,3,4
+Salamander,8,2,8,10
+Satyr,1,4,3,7
+"Scorpion, Giant",4,9,9,8
+Sea Hag,5,6,2,10
+Sea Serpent,1,9,7,10
+Shadow,7,5,1,10
+"  Shadow, Greater",6,7,10,4
+Shambling Mound,6,5,8,9
+Shark,8,5,6,8
+"  Shark, Dire",10,1,3,3
+Shocker Lizard,2,5,4,4
+Shoggoth,9,7,1,5
+Skeleton,1,9,1,7
+Skeletal Champion,3,5,2,8
+Skum,9,2,4,2
+"Slug, Giant",7,2,2,7
+Snake,10,7,9,5
+"  Snake, Constrictor",5,9,2,1
+"  Snake, Venomous",4,5,2,7
+Spectre,1,1,2,2
+Sphinx,10,10,1,10
+Spider,10,6,10,2
+  Spider Swarm,1,2,7,4
+"  Spider, Giant",6,4,5,5
+Squid,1,9,10,7
+"  Squid, Giant",8,6,5,6
+Stirge,3,3,10,2
+Svirfneblin,4,3,1,5
+Tarrasque,10,6,8,10
+Tengu,5,2,8,8
+Tiefling,1,5,10,2
+Tiger,2,1,5,6
+"  Tiger, Dire",8,6,9,3
+Treant,5,7,4,3
+Troglodyte,10,8,5,6
+Troll,5,9,1,6
+Unicorn,10,8,7,1
+Vampire,5,9,5,8
+Vargouille,7,2,3,1
+Vegepygmy,7,3,10,6
+Violet Fungus,4,7,6,2
+Wasp,5,9,10,10
+  Wasp Swarm,9,9,3,3
+"  Wasp, Giant",1,9,4,6
+Wight,9,1,3,7
+Will-o'-Wisp,5,3,2,4
+Wolf,2,9,10,9
+"Wolf, Dire",8,9,4,9
+Wolverine,8,3,2,2
+"  Wolverine, Dire",6,10,8,10
+Worg,5,3,10,6
+"  Worg, Winter Wolf",6,7,9,7
+Wraith,1,1,4,9
+Wyvern,7,3,9,9
+Xill,4,6,9,5
+Xorn,7,7,8,6
+Yellow Musk Creeper,6,2,1,2
+Yeth Hound,5,10,10,7
+Yeti,7,5,9,1
+Zombie,4,4,5,2
