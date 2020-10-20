@@ -4,7 +4,15 @@ Este espacio lo destinare al desarrollo de un mini juego de tipo text-based RPG.
 
 ## Descripción
 
-El juego consiste en una torre de pisos infinitos que se generan aleatoriamente. En cada piso, el usuario se encontrará con enemigos aleatorios de diferentes caracteristicas a los que se deberá enfrentar. Perder un pelea reiniciará el juego y ganarla le proporcionará al usuario puntos de habilidad y el avance al siguiente piso.
+El juego consiste en una torre de pisos infinitos que se generan aleatoriamente. En cada piso, el usuario se encontrará con enemigos aleatorios de diferentes caracteristicas a los que se deberá enfrentar. Perder un pelea reiniciará el juego y ganarla le proporcionará al usuario puntos de habilidad, flechas, salud y el avance al siguiente piso.
+
+## ¿Como Jugarlo?
+
+ 1- Descargar el proyecto
+ 2- Ubicarse por medio de la consola de comandos en el directorio del proyecto
+ 3- Ejecutar 'python PythonMiniGame/Main.py'
+
+## Algo asi como requerimientos
 
 El juego:
   * Permitirá al usuario crear un personaje que será jugable mientras la instancia del juego duré abierta o termine el juego.
@@ -18,14 +26,15 @@ El juego:
       * Espada: Cuyo daño consiste en la cantidad de fuerza bruta.
       * Vara magica: Cuyo daño consiste en la cantidad de inteligencia.
       * Arco: Cuyo daño consiste en la precision del usuario y el numero de flechas disponibles.
-  * De manera aleatoria, el usuario recibirá daño en cada pelea y se curará al vencer enemigos.
+  * De manera aleatoria, el usuario recibirá daño en cada pelea, se curará, recibirá puntos de habilidad y flechas al vencer enemigos.
   
 ## Cual es el reto?
   * Extraer el data de los enemigos de un archivo excel
   * Realizar un uso de clases conciso y funcional
+  * Usar tanto contenido como el necesario que se haya aprendido en la primera semana del bootcamp de IronHack
   
 
-## La estrtuctura del juego en código es:
+## La estrtuctura del juego en código es [SIN ACTUALIZAR]:
   * Clase Entidad:
       * [Propiedad] Vida
       * [Propiedad] Defensa fisica
@@ -51,6 +60,15 @@ El juego:
       Debe encargarse de enfrentar el usuario y un mounstro hasta que alguno muera  
   * Clase ControladorJuego:
       Debe encargarse de llevar el control de los pisos, enfrentamientos, inicio y final del juego
+
+## Posibles futuros
+ * Limpiar el contenido de las BDs para ser usadas y mostradas en el juego (quitar caracteres especiales, espacios, etc).
+ * Dar a la capacidad al usuario de cambiar armas
+ * Mounstros al ser derrotados que tengan drops
+ * Dar al usuario la capacidad de adquirir nuevas habilidades
+ * Implementación de paleta de colores concisa para cada momento del juego
+ * Guardar progreso
+ * Menús de selección para jugar, salir, revisar PJ, etc.
 
 
 
