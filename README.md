@@ -8,9 +8,9 @@ El juego consiste en una torre de pisos infinitos que se generan aleatoriamente.
 
 ## ¿Como Jugarlo?
 
- 1- Descargar el proyecto
- 2- Ubicarse por medio de la consola de comandos en el directorio del proyecto
- 3- Ejecutar 'python PythonMiniGame/Main.py'
+ 1. Descargar el proyecto
+ 2. Ubicarse por medio de la consola de comandos en el directorio del proyecto
+ 3. Ejecutar 'python PythonMiniGame/Main.py'
 
 ## Algo asi como requerimientos
 
@@ -60,6 +60,10 @@ El juego:
       Debe encargarse de enfrentar el usuario y un mounstro hasta que alguno muera  
   * Clase ControladorJuego:
       Debe encargarse de llevar el control de los pisos, enfrentamientos, inicio y final del juego
+
+## Recursos externos usados
+ * Listado de ataques: Los nombres son tomados del listado de ataques de pokemón (me parece): https://delugerpg.fandom.com/wiki/Attack_Guide
+ * Listado de mounstros: Los nombres fuerón tomados de: https://rpg-mo.fandom.com/wiki/Monsters
 
 ## Posibles futuros
  * Limpiar el contenido de las BDs para ser usadas y mostradas en el juego (quitar caracteres especiales, espacios, etc).
